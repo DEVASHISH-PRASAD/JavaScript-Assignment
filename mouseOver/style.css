@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#hoverDiv {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#hoverDiv:hover {
+  background-color: lightcoral;
+}
